@@ -1,0 +1,29 @@
+### dotenv ###
+.env
+
+### react ###
+.DS_*
+*.log
+logs
+
+node_modules
+
+dist
+
+### yarn ###
+.yarn/*
+!.yarn/releases
+!.yarn/patches
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+### misc ###
+.env
+.env.development
+.env.test
+.env.production
+
+# if you are NOT using Zero-installs, then:
+# comment the following lines
+!.yarn/cache
