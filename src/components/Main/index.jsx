@@ -1,7 +1,7 @@
 import Button from 'components/Common/Button';
 import tw, { css } from 'twin.macro';
 import { ReactComponent as Arcticbit } from 'assets/arcticbit.svg';
-import { ReactComponent as Raumwatch } from 'assets/raumwatch.svg';
+import { ReactComponent as Tatwatch } from 'assets/tatwatch.svg';
 import { ReactComponent as Tat } from 'assets/tat.svg';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -14,7 +14,6 @@ const Main = () => {
 
   useEffect(() => {
     const setInnnerWidth = () => {
-      console.log('call', window.innerWidth);
       setViewportWidth(window.innerWidth);
     };
     window.addEventListener('resize', setInnnerWidth);
@@ -34,11 +33,10 @@ const Main = () => {
           <h3 tw='font-extrabold text-white text-[3.6rem] leading-[4.5rem] tracking-[-1px]'>
             Experience the
             <br />
-            Elegance
+            Future of Auctions
           </h3>
           <figcaption tw='text-white text-[1.5rem] leading-[2.1rem] mt-[0.5rem]'>
-            Explore, bid, and win with our AR try-on and real-time alerts with
-            seamless web3 integration
+            Bid, Win, and Earn with Ease - All in Your Social Feed
           </figcaption>
         </div>
       </figure>
@@ -48,8 +46,8 @@ const Main = () => {
       </h3>
 
       <p tw='text-center text-[1.6rem] leading-[2.4rem] mb-[2rem]'>
-        We address trust issues and complex
-        <br /> procedures with our cutting-edge solutions
+        Building Trust and Simplifying Processes
+        <br /> with Innovative Solutions
       </p>
 
       <Button>Get Started</Button>
@@ -70,10 +68,10 @@ const Main = () => {
           tw='py-[2rem] [&>svg]:mx-[1rem]'
         >
           <Arcticbit width='10rem' height='2rem' />
-          <Raumwatch width='17rem' height='2rem' />
+          <Tatwatch width='8rem' height='2.5rem' />
           <Tat width='4.5rem' height='2rem' />
           <Arcticbit width='10rem' height='2rem' />
-          <Raumwatch width='17rem' height='2rem' />
+          <Tatwatch width='8rem' height='2.5rem' />
           <Tat width='4.5rem' height='2rem' />
         </Slider>
       </div>

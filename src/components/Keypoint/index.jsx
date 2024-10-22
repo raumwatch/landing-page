@@ -40,24 +40,27 @@ export default Keypoint;
 
 const mockKeypointData = [
   {
-    title: 'Authenticity Certificates',
-    description: 'Our platform ensures every item is certified authentic',
+    title: 'Seamless Social Media Integration',
+    description:
+      'Direct aution mechanics integration within social media feeds, enhancing user engagement',
     img: <Certificate width='2rem' height='2rem' tw='fill-black-1' />,
   },
   {
-    title: 'Secure Payment Systems',
-    description: 'Enjoy safe and seamless transactions with our platform',
+    title: 'Frictionless User Experience',
+    description:
+      'Seamless integration of Web3 bidding within social media with just few steps',
     img: <Payment width='2rem' height='2rem' tw='fill-black-1' />,
   },
   {
-    title: 'Market Democratization',
+    title: 'DeFi-Powered RWA Auction',
     description:
-      'We make auction permissionless, anyone can monetize, bid with the financial support',
+      'New monetization opportunities with DeFi-powered RWA auction to boost capital efficiency',
     img: <MarketDemocratization width='2rem' height='2rem' tw='fill-black-1' />,
   },
   {
-    title: 'Assured Privacy',
-    description: 'Privacy-assured transactions with the blockchain technology',
+    title: 'Enhanced Security and Trust',
+    description:
+      'Enhanced privacy and transparent bidding flows with the secure system',
     img: <Privacy width='2rem' height='2rem' tw='fill-black-1' />,
   },
 ];
